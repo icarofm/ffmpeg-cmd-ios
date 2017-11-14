@@ -1,0 +1,14 @@
+prefix=/Users/marceloramos/Desktop/Projects/icaro/ffmpeg-cmd/Submodules/ffmpeg/thin/armv7
+exec_prefix=${prefix}
+libdir=/Users/marceloramos/Desktop/Projects/icaro/ffmpeg-cmd/Submodules/ffmpeg/thin/armv7/lib
+includedir=/Users/marceloramos/Desktop/Projects/icaro/ffmpeg-cmd/Submodules/ffmpeg/thin/armv7/include
+
+Name: libpostproc
+Description: FFmpeg postprocessing library
+Version: 54.7.100
+Requires: libavutil >= 55.78.100
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lpostproc 
+Libs.private: 
+Cflags: -I${includedir}

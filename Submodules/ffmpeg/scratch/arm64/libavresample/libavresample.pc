@@ -1,0 +1,14 @@
+prefix=/Users/marceloramos/Desktop/Projects/icaro/ffmpeg-cmd/Submodules/ffmpeg/thin/arm64
+exec_prefix=${prefix}
+libdir=/Users/marceloramos/Desktop/Projects/icaro/ffmpeg-cmd/Submodules/ffmpeg/thin/arm64/lib
+includedir=/Users/marceloramos/Desktop/Projects/icaro/ffmpeg-cmd/Submodules/ffmpeg/thin/arm64/include
+
+Name: libavresample
+Description: Libav audio resampling library
+Version: 3.7.0
+Requires: libavutil >= 55.78.100
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavresample -lm
+Libs.private: 
+Cflags: -I${includedir}

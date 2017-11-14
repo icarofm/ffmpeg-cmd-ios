@@ -1,0 +1,14 @@
+prefix=/Users/marceloramos/Desktop/Projects/icaro/ffmpeg-cmd/Submodules/ffmpeg/thin/armv7
+exec_prefix=${prefix}
+libdir=/Users/marceloramos/Desktop/Projects/icaro/ffmpeg-cmd/Submodules/ffmpeg/thin/armv7/lib
+includedir=/Users/marceloramos/Desktop/Projects/icaro/ffmpeg-cmd/Submodules/ffmpeg/thin/armv7/include
+
+Name: libavutil
+Description: FFmpeg utility library
+Version: 55.78.100
+Requires: 
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavutil -lm
+Libs.private: 
+Cflags: -I${includedir}

@@ -1,0 +1,609 @@
+common/mc.o: ../../x264/common/mc.c ../../x264/common/common.h \
+  ../../x264/common/osdep.h config.h ../../x264/x264.h x264_config.h \
+  ../../x264/common/opencl.h ../../x264/extras/cl.h \
+  ../../x264/extras/cl_platform.h ../../x264/common/cabac.h \
+  ../../x264/common/bitstream.h ../../x264/common/set.h \
+  ../../x264/common/predict.h ../../x264/common/pixel.h \
+  ../../x264/common/mc.h ../../x264/common/frame.h \
+  ../../x264/common/dct.h ../../x264/common/quant.h \
+  ../../x264/common/cpu.h ../../x264/common/threadpool.h \
+  ../../x264/common/macroblock.h ../../x264/common/rectangle.h \
+  ../../x264/common/aarch64/mc.h
+common/predict.o: ../../x264/common/predict.c ../../x264/common/common.h \
+  ../../x264/common/osdep.h config.h ../../x264/x264.h x264_config.h \
+  ../../x264/common/opencl.h ../../x264/extras/cl.h \
+  ../../x264/extras/cl_platform.h ../../x264/common/cabac.h \
+  ../../x264/common/bitstream.h ../../x264/common/set.h \
+  ../../x264/common/predict.h ../../x264/common/pixel.h \
+  ../../x264/common/mc.h ../../x264/common/frame.h \
+  ../../x264/common/dct.h ../../x264/common/quant.h \
+  ../../x264/common/cpu.h ../../x264/common/threadpool.h \
+  ../../x264/common/macroblock.h ../../x264/common/rectangle.h \
+  ../../x264/common/aarch64/predict.h
+common/pixel.o: ../../x264/common/pixel.c ../../x264/common/common.h \
+  ../../x264/common/osdep.h config.h ../../x264/x264.h x264_config.h \
+  ../../x264/common/opencl.h ../../x264/extras/cl.h \
+  ../../x264/extras/cl_platform.h ../../x264/common/cabac.h \
+  ../../x264/common/bitstream.h ../../x264/common/set.h \
+  ../../x264/common/predict.h ../../x264/common/pixel.h \
+  ../../x264/common/mc.h ../../x264/common/frame.h \
+  ../../x264/common/dct.h ../../x264/common/quant.h \
+  ../../x264/common/cpu.h ../../x264/common/threadpool.h \
+  ../../x264/common/macroblock.h ../../x264/common/rectangle.h \
+  ../../x264/common/aarch64/pixel.h ../../x264/common/aarch64/predict.h
+common/macroblock.o: ../../x264/common/macroblock.c \
+  ../../x264/common/common.h ../../x264/common/osdep.h config.h \
+  ../../x264/x264.h x264_config.h ../../x264/common/opencl.h \
+  ../../x264/extras/cl.h ../../x264/extras/cl_platform.h \
+  ../../x264/common/cabac.h ../../x264/common/bitstream.h \
+  ../../x264/common/set.h ../../x264/common/predict.h \
+  ../../x264/common/pixel.h ../../x264/common/mc.h \
+  ../../x264/common/frame.h ../../x264/common/dct.h \
+  ../../x264/common/quant.h ../../x264/common/cpu.h \
+  ../../x264/common/threadpool.h ../../x264/common/macroblock.h \
+  ../../x264/common/rectangle.h
+common/frame.o: ../../x264/common/frame.c ../../x264/common/common.h \
+  ../../x264/common/osdep.h config.h ../../x264/x264.h x264_config.h \
+  ../../x264/common/opencl.h ../../x264/extras/cl.h \
+  ../../x264/extras/cl_platform.h ../../x264/common/cabac.h \
+  ../../x264/common/bitstream.h ../../x264/common/set.h \
+  ../../x264/common/predict.h ../../x264/common/pixel.h \
+  ../../x264/common/mc.h ../../x264/common/frame.h \
+  ../../x264/common/dct.h ../../x264/common/quant.h \
+  ../../x264/common/cpu.h ../../x264/common/threadpool.h \
+  ../../x264/common/macroblock.h ../../x264/common/rectangle.h
+common/dct.o: ../../x264/common/dct.c ../../x264/common/common.h \
+  ../../x264/common/osdep.h config.h ../../x264/x264.h x264_config.h \
+  ../../x264/common/opencl.h ../../x264/extras/cl.h \
+  ../../x264/extras/cl_platform.h ../../x264/common/cabac.h \
+  ../../x264/common/bitstream.h ../../x264/common/set.h \
+  ../../x264/common/predict.h ../../x264/common/pixel.h \
+  ../../x264/common/mc.h ../../x264/common/frame.h \
+  ../../x264/common/dct.h ../../x264/common/quant.h \
+  ../../x264/common/cpu.h ../../x264/common/threadpool.h \
+  ../../x264/common/macroblock.h ../../x264/common/rectangle.h \
+  ../../x264/common/aarch64/dct.h
+common/cpu.o: ../../x264/common/cpu.c ../../x264/common/common.h \
+  ../../x264/common/osdep.h config.h ../../x264/x264.h x264_config.h \
+  ../../x264/common/opencl.h ../../x264/extras/cl.h \
+  ../../x264/extras/cl_platform.h ../../x264/common/cabac.h \
+  ../../x264/common/bitstream.h ../../x264/common/set.h \
+  ../../x264/common/predict.h ../../x264/common/pixel.h \
+  ../../x264/common/mc.h ../../x264/common/frame.h \
+  ../../x264/common/dct.h ../../x264/common/quant.h \
+  ../../x264/common/cpu.h ../../x264/common/threadpool.h \
+  ../../x264/common/macroblock.h ../../x264/common/rectangle.h
+common/cabac.o: ../../x264/common/cabac.c ../../x264/common/common.h \
+  ../../x264/common/osdep.h config.h ../../x264/x264.h x264_config.h \
+  ../../x264/common/opencl.h ../../x264/extras/cl.h \
+  ../../x264/extras/cl_platform.h ../../x264/common/cabac.h \
+  ../../x264/common/bitstream.h ../../x264/common/set.h \
+  ../../x264/common/predict.h ../../x264/common/pixel.h \
+  ../../x264/common/mc.h ../../x264/common/frame.h \
+  ../../x264/common/dct.h ../../x264/common/quant.h \
+  ../../x264/common/cpu.h ../../x264/common/threadpool.h \
+  ../../x264/common/macroblock.h ../../x264/common/rectangle.h
+common/common.o: ../../x264/common/common.c ../../x264/common/common.h \
+  ../../x264/common/osdep.h config.h ../../x264/x264.h x264_config.h \
+  ../../x264/common/opencl.h ../../x264/extras/cl.h \
+  ../../x264/extras/cl_platform.h ../../x264/common/cabac.h \
+  ../../x264/common/bitstream.h ../../x264/common/set.h \
+  ../../x264/common/predict.h ../../x264/common/pixel.h \
+  ../../x264/common/mc.h ../../x264/common/frame.h \
+  ../../x264/common/dct.h ../../x264/common/quant.h \
+  ../../x264/common/cpu.h ../../x264/common/threadpool.h \
+  ../../x264/common/macroblock.h ../../x264/common/rectangle.h
+common/osdep.o: ../../x264/common/osdep.c ../../x264/common/common.h \
+  ../../x264/common/osdep.h config.h ../../x264/x264.h x264_config.h \
+  ../../x264/common/opencl.h ../../x264/extras/cl.h \
+  ../../x264/extras/cl_platform.h ../../x264/common/cabac.h \
+  ../../x264/common/bitstream.h ../../x264/common/set.h \
+  ../../x264/common/predict.h ../../x264/common/pixel.h \
+  ../../x264/common/mc.h ../../x264/common/frame.h \
+  ../../x264/common/dct.h ../../x264/common/quant.h \
+  ../../x264/common/cpu.h ../../x264/common/threadpool.h \
+  ../../x264/common/macroblock.h ../../x264/common/rectangle.h
+common/rectangle.o: ../../x264/common/rectangle.c \
+  ../../x264/common/common.h ../../x264/common/osdep.h config.h \
+  ../../x264/x264.h x264_config.h ../../x264/common/opencl.h \
+  ../../x264/extras/cl.h ../../x264/extras/cl_platform.h \
+  ../../x264/common/cabac.h ../../x264/common/bitstream.h \
+  ../../x264/common/set.h ../../x264/common/predict.h \
+  ../../x264/common/pixel.h ../../x264/common/mc.h \
+  ../../x264/common/frame.h ../../x264/common/dct.h \
+  ../../x264/common/quant.h ../../x264/common/cpu.h \
+  ../../x264/common/threadpool.h ../../x264/common/macroblock.h \
+  ../../x264/common/rectangle.h
+common/set.o: ../../x264/common/set.c ../../x264/common/common.h \
+  ../../x264/common/osdep.h config.h ../../x264/x264.h x264_config.h \
+  ../../x264/common/opencl.h ../../x264/extras/cl.h \
+  ../../x264/extras/cl_platform.h ../../x264/common/cabac.h \
+  ../../x264/common/bitstream.h ../../x264/common/set.h \
+  ../../x264/common/predict.h ../../x264/common/pixel.h \
+  ../../x264/common/mc.h ../../x264/common/frame.h \
+  ../../x264/common/dct.h ../../x264/common/quant.h \
+  ../../x264/common/cpu.h ../../x264/common/threadpool.h \
+  ../../x264/common/macroblock.h ../../x264/common/rectangle.h
+common/quant.o: ../../x264/common/quant.c ../../x264/common/common.h \
+  ../../x264/common/osdep.h config.h ../../x264/x264.h x264_config.h \
+  ../../x264/common/opencl.h ../../x264/extras/cl.h \
+  ../../x264/extras/cl_platform.h ../../x264/common/cabac.h \
+  ../../x264/common/bitstream.h ../../x264/common/set.h \
+  ../../x264/common/predict.h ../../x264/common/pixel.h \
+  ../../x264/common/mc.h ../../x264/common/frame.h \
+  ../../x264/common/dct.h ../../x264/common/quant.h \
+  ../../x264/common/cpu.h ../../x264/common/threadpool.h \
+  ../../x264/common/macroblock.h ../../x264/common/rectangle.h \
+  ../../x264/common/aarch64/quant.h
+common/deblock.o: ../../x264/common/deblock.c ../../x264/common/common.h \
+  ../../x264/common/osdep.h config.h ../../x264/x264.h x264_config.h \
+  ../../x264/common/opencl.h ../../x264/extras/cl.h \
+  ../../x264/extras/cl_platform.h ../../x264/common/cabac.h \
+  ../../x264/common/bitstream.h ../../x264/common/set.h \
+  ../../x264/common/predict.h ../../x264/common/pixel.h \
+  ../../x264/common/mc.h ../../x264/common/frame.h \
+  ../../x264/common/dct.h ../../x264/common/quant.h \
+  ../../x264/common/cpu.h ../../x264/common/threadpool.h \
+  ../../x264/common/macroblock.h ../../x264/common/rectangle.h
+common/vlc.o: ../../x264/common/vlc.c ../../x264/common/common.h \
+  ../../x264/common/osdep.h config.h ../../x264/x264.h x264_config.h \
+  ../../x264/common/opencl.h ../../x264/extras/cl.h \
+  ../../x264/extras/cl_platform.h ../../x264/common/cabac.h \
+  ../../x264/common/bitstream.h ../../x264/common/set.h \
+  ../../x264/common/predict.h ../../x264/common/pixel.h \
+  ../../x264/common/mc.h ../../x264/common/frame.h \
+  ../../x264/common/dct.h ../../x264/common/quant.h \
+  ../../x264/common/cpu.h ../../x264/common/threadpool.h \
+  ../../x264/common/macroblock.h ../../x264/common/rectangle.h
+common/mvpred.o: ../../x264/common/mvpred.c ../../x264/common/common.h \
+  ../../x264/common/osdep.h config.h ../../x264/x264.h x264_config.h \
+  ../../x264/common/opencl.h ../../x264/extras/cl.h \
+  ../../x264/extras/cl_platform.h ../../x264/common/cabac.h \
+  ../../x264/common/bitstream.h ../../x264/common/set.h \
+  ../../x264/common/predict.h ../../x264/common/pixel.h \
+  ../../x264/common/mc.h ../../x264/common/frame.h \
+  ../../x264/common/dct.h ../../x264/common/quant.h \
+  ../../x264/common/cpu.h ../../x264/common/threadpool.h \
+  ../../x264/common/macroblock.h ../../x264/common/rectangle.h
+common/bitstream.o: ../../x264/common/bitstream.c \
+  ../../x264/common/common.h ../../x264/common/osdep.h config.h \
+  ../../x264/x264.h x264_config.h ../../x264/common/opencl.h \
+  ../../x264/extras/cl.h ../../x264/extras/cl_platform.h \
+  ../../x264/common/cabac.h ../../x264/common/bitstream.h \
+  ../../x264/common/set.h ../../x264/common/predict.h \
+  ../../x264/common/pixel.h ../../x264/common/mc.h \
+  ../../x264/common/frame.h ../../x264/common/dct.h \
+  ../../x264/common/quant.h ../../x264/common/cpu.h \
+  ../../x264/common/threadpool.h ../../x264/common/macroblock.h \
+  ../../x264/common/rectangle.h
+encoder/analyse.o: ../../x264/encoder/analyse.c \
+  ../../x264/common/common.h ../../x264/common/osdep.h config.h \
+  ../../x264/x264.h x264_config.h ../../x264/common/opencl.h \
+  ../../x264/extras/cl.h ../../x264/extras/cl_platform.h \
+  ../../x264/common/cabac.h ../../x264/common/bitstream.h \
+  ../../x264/common/set.h ../../x264/common/predict.h \
+  ../../x264/common/pixel.h ../../x264/common/mc.h \
+  ../../x264/common/frame.h ../../x264/common/dct.h \
+  ../../x264/common/quant.h ../../x264/common/cpu.h \
+  ../../x264/common/threadpool.h ../../x264/common/macroblock.h \
+  ../../x264/common/rectangle.h ../../x264/encoder/macroblock.h \
+  ../../x264/encoder/me.h ../../x264/encoder/ratecontrol.h \
+  ../../x264/encoder/analyse.h ../../x264/encoder/rdo.c \
+  ../../x264/encoder/cavlc.c ../../x264/encoder/cabac.c \
+  ../../x264/encoder/slicetype.c
+encoder/me.o: ../../x264/encoder/me.c ../../x264/common/common.h \
+  ../../x264/common/osdep.h config.h ../../x264/x264.h x264_config.h \
+  ../../x264/common/opencl.h ../../x264/extras/cl.h \
+  ../../x264/extras/cl_platform.h ../../x264/common/cabac.h \
+  ../../x264/common/bitstream.h ../../x264/common/set.h \
+  ../../x264/common/predict.h ../../x264/common/pixel.h \
+  ../../x264/common/mc.h ../../x264/common/frame.h \
+  ../../x264/common/dct.h ../../x264/common/quant.h \
+  ../../x264/common/cpu.h ../../x264/common/threadpool.h \
+  ../../x264/common/macroblock.h ../../x264/common/rectangle.h \
+  ../../x264/encoder/macroblock.h ../../x264/encoder/me.h
+encoder/ratecontrol.o: ../../x264/encoder/ratecontrol.c \
+  ../../x264/common/common.h ../../x264/common/osdep.h config.h \
+  ../../x264/x264.h x264_config.h ../../x264/common/opencl.h \
+  ../../x264/extras/cl.h ../../x264/extras/cl_platform.h \
+  ../../x264/common/cabac.h ../../x264/common/bitstream.h \
+  ../../x264/common/set.h ../../x264/common/predict.h \
+  ../../x264/common/pixel.h ../../x264/common/mc.h \
+  ../../x264/common/frame.h ../../x264/common/dct.h \
+  ../../x264/common/quant.h ../../x264/common/cpu.h \
+  ../../x264/common/threadpool.h ../../x264/common/macroblock.h \
+  ../../x264/common/rectangle.h ../../x264/encoder/ratecontrol.h \
+  ../../x264/encoder/me.h
+encoder/set.o: ../../x264/encoder/set.c ../../x264/common/common.h \
+  ../../x264/common/osdep.h config.h ../../x264/x264.h x264_config.h \
+  ../../x264/common/opencl.h ../../x264/extras/cl.h \
+  ../../x264/extras/cl_platform.h ../../x264/common/cabac.h \
+  ../../x264/common/bitstream.h ../../x264/common/set.h \
+  ../../x264/common/predict.h ../../x264/common/pixel.h \
+  ../../x264/common/mc.h ../../x264/common/frame.h \
+  ../../x264/common/dct.h ../../x264/common/quant.h \
+  ../../x264/common/cpu.h ../../x264/common/threadpool.h \
+  ../../x264/common/macroblock.h ../../x264/common/rectangle.h \
+  ../../x264/encoder/set.h
+encoder/macroblock.o: ../../x264/encoder/macroblock.c \
+  ../../x264/common/common.h ../../x264/common/osdep.h config.h \
+  ../../x264/x264.h x264_config.h ../../x264/common/opencl.h \
+  ../../x264/extras/cl.h ../../x264/extras/cl_platform.h \
+  ../../x264/common/cabac.h ../../x264/common/bitstream.h \
+  ../../x264/common/set.h ../../x264/common/predict.h \
+  ../../x264/common/pixel.h ../../x264/common/mc.h \
+  ../../x264/common/frame.h ../../x264/common/dct.h \
+  ../../x264/common/quant.h ../../x264/common/cpu.h \
+  ../../x264/common/threadpool.h ../../x264/common/macroblock.h \
+  ../../x264/common/rectangle.h ../../x264/encoder/macroblock.h
+encoder/cabac.o: ../../x264/encoder/cabac.c ../../x264/common/common.h \
+  ../../x264/common/osdep.h config.h ../../x264/x264.h x264_config.h \
+  ../../x264/common/opencl.h ../../x264/extras/cl.h \
+  ../../x264/extras/cl_platform.h ../../x264/common/cabac.h \
+  ../../x264/common/bitstream.h ../../x264/common/set.h \
+  ../../x264/common/predict.h ../../x264/common/pixel.h \
+  ../../x264/common/mc.h ../../x264/common/frame.h \
+  ../../x264/common/dct.h ../../x264/common/quant.h \
+  ../../x264/common/cpu.h ../../x264/common/threadpool.h \
+  ../../x264/common/macroblock.h ../../x264/common/rectangle.h \
+  ../../x264/encoder/macroblock.h
+encoder/cavlc.o: ../../x264/encoder/cavlc.c ../../x264/common/common.h \
+  ../../x264/common/osdep.h config.h ../../x264/x264.h x264_config.h \
+  ../../x264/common/opencl.h ../../x264/extras/cl.h \
+  ../../x264/extras/cl_platform.h ../../x264/common/cabac.h \
+  ../../x264/common/bitstream.h ../../x264/common/set.h \
+  ../../x264/common/predict.h ../../x264/common/pixel.h \
+  ../../x264/common/mc.h ../../x264/common/frame.h \
+  ../../x264/common/dct.h ../../x264/common/quant.h \
+  ../../x264/common/cpu.h ../../x264/common/threadpool.h \
+  ../../x264/common/macroblock.h ../../x264/common/rectangle.h \
+  ../../x264/encoder/macroblock.h
+encoder/encoder.o: ../../x264/encoder/encoder.c \
+  ../../x264/common/common.h ../../x264/common/osdep.h config.h \
+  ../../x264/x264.h x264_config.h ../../x264/common/opencl.h \
+  ../../x264/extras/cl.h ../../x264/extras/cl_platform.h \
+  ../../x264/common/cabac.h ../../x264/common/bitstream.h \
+  ../../x264/common/set.h ../../x264/common/predict.h \
+  ../../x264/common/pixel.h ../../x264/common/mc.h \
+  ../../x264/common/frame.h ../../x264/common/dct.h \
+  ../../x264/common/quant.h ../../x264/common/cpu.h \
+  ../../x264/common/threadpool.h ../../x264/common/macroblock.h \
+  ../../x264/common/rectangle.h ../../x264/encoder/set.h \
+  ../../x264/encoder/analyse.h ../../x264/encoder/ratecontrol.h \
+  ../../x264/encoder/macroblock.h ../../x264/encoder/me.h
+encoder/lookahead.o: ../../x264/encoder/lookahead.c \
+  ../../x264/common/common.h ../../x264/common/osdep.h config.h \
+  ../../x264/x264.h x264_config.h ../../x264/common/opencl.h \
+  ../../x264/extras/cl.h ../../x264/extras/cl_platform.h \
+  ../../x264/common/cabac.h ../../x264/common/bitstream.h \
+  ../../x264/common/set.h ../../x264/common/predict.h \
+  ../../x264/common/pixel.h ../../x264/common/mc.h \
+  ../../x264/common/frame.h ../../x264/common/dct.h \
+  ../../x264/common/quant.h ../../x264/common/cpu.h \
+  ../../x264/common/threadpool.h ../../x264/common/macroblock.h \
+  ../../x264/common/rectangle.h ../../x264/encoder/analyse.h
+common/threadpool.o: ../../x264/common/threadpool.c \
+  ../../x264/common/common.h ../../x264/common/osdep.h config.h \
+  ../../x264/x264.h x264_config.h ../../x264/common/opencl.h \
+  ../../x264/extras/cl.h ../../x264/extras/cl_platform.h \
+  ../../x264/common/cabac.h ../../x264/common/bitstream.h \
+  ../../x264/common/set.h ../../x264/common/predict.h \
+  ../../x264/common/pixel.h ../../x264/common/mc.h \
+  ../../x264/common/frame.h ../../x264/common/dct.h \
+  ../../x264/common/quant.h ../../x264/common/cpu.h \
+  ../../x264/common/threadpool.h ../../x264/common/macroblock.h \
+  ../../x264/common/rectangle.h
+common/aarch64/asm-offsets.o: ../../x264/common/aarch64/asm-offsets.c \
+  ../../x264/common/common.h ../../x264/common/osdep.h config.h \
+  ../../x264/x264.h x264_config.h ../../x264/common/opencl.h \
+  ../../x264/extras/cl.h ../../x264/extras/cl_platform.h \
+  ../../x264/common/cabac.h ../../x264/common/bitstream.h \
+  ../../x264/common/set.h ../../x264/common/predict.h \
+  ../../x264/common/pixel.h ../../x264/common/mc.h \
+  ../../x264/common/frame.h ../../x264/common/dct.h \
+  ../../x264/common/quant.h ../../x264/common/cpu.h \
+  ../../x264/common/threadpool.h ../../x264/common/macroblock.h \
+  ../../x264/common/rectangle.h ../../x264/common/aarch64/asm-offsets.h
+common/aarch64/mc-c.o: ../../x264/common/aarch64/mc-c.c \
+  ../../x264/common/common.h ../../x264/common/osdep.h config.h \
+  ../../x264/x264.h x264_config.h ../../x264/common/opencl.h \
+  ../../x264/extras/cl.h ../../x264/extras/cl_platform.h \
+  ../../x264/common/cabac.h ../../x264/common/bitstream.h \
+  ../../x264/common/set.h ../../x264/common/predict.h \
+  ../../x264/common/pixel.h ../../x264/common/mc.h \
+  ../../x264/common/frame.h ../../x264/common/dct.h \
+  ../../x264/common/quant.h ../../x264/common/cpu.h \
+  ../../x264/common/threadpool.h ../../x264/common/macroblock.h \
+  ../../x264/common/rectangle.h ../../x264/common/aarch64/mc.h
+common/aarch64/predict-c.o: ../../x264/common/aarch64/predict-c.c \
+  ../../x264/common/common.h ../../x264/common/osdep.h config.h \
+  ../../x264/x264.h x264_config.h ../../x264/common/opencl.h \
+  ../../x264/extras/cl.h ../../x264/extras/cl_platform.h \
+  ../../x264/common/cabac.h ../../x264/common/bitstream.h \
+  ../../x264/common/set.h ../../x264/common/predict.h \
+  ../../x264/common/pixel.h ../../x264/common/mc.h \
+  ../../x264/common/frame.h ../../x264/common/dct.h \
+  ../../x264/common/quant.h ../../x264/common/cpu.h \
+  ../../x264/common/threadpool.h ../../x264/common/macroblock.h \
+  ../../x264/common/rectangle.h ../../x264/common/aarch64/predict.h \
+  ../../x264/common/aarch64/pixel.h
+common/opencl.o: ../../x264/common/opencl.c ../../x264/common/common.h \
+  ../../x264/common/osdep.h config.h ../../x264/x264.h x264_config.h \
+  ../../x264/common/opencl.h ../../x264/extras/cl.h \
+  ../../x264/extras/cl_platform.h ../../x264/common/cabac.h \
+  ../../x264/common/bitstream.h ../../x264/common/set.h \
+  ../../x264/common/predict.h ../../x264/common/pixel.h \
+  ../../x264/common/mc.h ../../x264/common/frame.h \
+  ../../x264/common/dct.h ../../x264/common/quant.h \
+  ../../x264/common/cpu.h ../../x264/common/threadpool.h \
+  ../../x264/common/macroblock.h ../../x264/common/rectangle.h \
+  common/oclobj.h
+encoder/slicetype-cl.o: ../../x264/encoder/slicetype-cl.c \
+  ../../x264/common/common.h ../../x264/common/osdep.h config.h \
+  ../../x264/x264.h x264_config.h ../../x264/common/opencl.h \
+  ../../x264/extras/cl.h ../../x264/extras/cl_platform.h \
+  ../../x264/common/cabac.h ../../x264/common/bitstream.h \
+  ../../x264/common/set.h ../../x264/common/predict.h \
+  ../../x264/common/pixel.h ../../x264/common/mc.h \
+  ../../x264/common/frame.h ../../x264/common/dct.h \
+  ../../x264/common/quant.h ../../x264/common/cpu.h \
+  ../../x264/common/threadpool.h ../../x264/common/macroblock.h \
+  ../../x264/common/rectangle.h ../../x264/encoder/macroblock.h \
+  ../../x264/encoder/me.h
+x264.o: ../../x264/x264.c ../../x264/common/common.h \
+  ../../x264/common/osdep.h config.h ../../x264/x264.h x264_config.h \
+  ../../x264/common/opencl.h ../../x264/extras/cl.h \
+  ../../x264/extras/cl_platform.h ../../x264/common/cabac.h \
+  ../../x264/common/bitstream.h ../../x264/common/set.h \
+  ../../x264/common/predict.h ../../x264/common/pixel.h \
+  ../../x264/common/mc.h ../../x264/common/frame.h \
+  ../../x264/common/dct.h ../../x264/common/quant.h \
+  ../../x264/common/cpu.h ../../x264/common/threadpool.h \
+  ../../x264/common/macroblock.h ../../x264/common/rectangle.h \
+  ../../x264/x264cli.h ../../x264/input/input.h \
+  ../../x264/output/output.h ../../x264/filters/filters.h \
+  ../../x264/filters/video/video.h
+input/input.o: ../../x264/input/input.c ../../x264/input/input.h \
+  ../../x264/x264cli.h ../../x264/common/common.h \
+  ../../x264/common/osdep.h config.h ../../x264/x264.h x264_config.h \
+  ../../x264/common/opencl.h ../../x264/extras/cl.h \
+  ../../x264/extras/cl_platform.h ../../x264/common/cabac.h \
+  ../../x264/common/bitstream.h ../../x264/common/set.h \
+  ../../x264/common/predict.h ../../x264/common/pixel.h \
+  ../../x264/common/mc.h ../../x264/common/frame.h \
+  ../../x264/common/dct.h ../../x264/common/quant.h \
+  ../../x264/common/cpu.h ../../x264/common/threadpool.h \
+  ../../x264/common/macroblock.h ../../x264/common/rectangle.h
+input/timecode.o: ../../x264/input/timecode.c ../../x264/input/input.h \
+  ../../x264/x264cli.h ../../x264/common/common.h \
+  ../../x264/common/osdep.h config.h ../../x264/x264.h x264_config.h \
+  ../../x264/common/opencl.h ../../x264/extras/cl.h \
+  ../../x264/extras/cl_platform.h ../../x264/common/cabac.h \
+  ../../x264/common/bitstream.h ../../x264/common/set.h \
+  ../../x264/common/predict.h ../../x264/common/pixel.h \
+  ../../x264/common/mc.h ../../x264/common/frame.h \
+  ../../x264/common/dct.h ../../x264/common/quant.h \
+  ../../x264/common/cpu.h ../../x264/common/threadpool.h \
+  ../../x264/common/macroblock.h ../../x264/common/rectangle.h
+input/raw.o: ../../x264/input/raw.c ../../x264/input/input.h \
+  ../../x264/x264cli.h ../../x264/common/common.h \
+  ../../x264/common/osdep.h config.h ../../x264/x264.h x264_config.h \
+  ../../x264/common/opencl.h ../../x264/extras/cl.h \
+  ../../x264/extras/cl_platform.h ../../x264/common/cabac.h \
+  ../../x264/common/bitstream.h ../../x264/common/set.h \
+  ../../x264/common/predict.h ../../x264/common/pixel.h \
+  ../../x264/common/mc.h ../../x264/common/frame.h \
+  ../../x264/common/dct.h ../../x264/common/quant.h \
+  ../../x264/common/cpu.h ../../x264/common/threadpool.h \
+  ../../x264/common/macroblock.h ../../x264/common/rectangle.h
+input/y4m.o: ../../x264/input/y4m.c ../../x264/input/input.h \
+  ../../x264/x264cli.h ../../x264/common/common.h \
+  ../../x264/common/osdep.h config.h ../../x264/x264.h x264_config.h \
+  ../../x264/common/opencl.h ../../x264/extras/cl.h \
+  ../../x264/extras/cl_platform.h ../../x264/common/cabac.h \
+  ../../x264/common/bitstream.h ../../x264/common/set.h \
+  ../../x264/common/predict.h ../../x264/common/pixel.h \
+  ../../x264/common/mc.h ../../x264/common/frame.h \
+  ../../x264/common/dct.h ../../x264/common/quant.h \
+  ../../x264/common/cpu.h ../../x264/common/threadpool.h \
+  ../../x264/common/macroblock.h ../../x264/common/rectangle.h
+output/raw.o: ../../x264/output/raw.c ../../x264/output/output.h \
+  ../../x264/x264cli.h ../../x264/common/common.h \
+  ../../x264/common/osdep.h config.h ../../x264/x264.h x264_config.h \
+  ../../x264/common/opencl.h ../../x264/extras/cl.h \
+  ../../x264/extras/cl_platform.h ../../x264/common/cabac.h \
+  ../../x264/common/bitstream.h ../../x264/common/set.h \
+  ../../x264/common/predict.h ../../x264/common/pixel.h \
+  ../../x264/common/mc.h ../../x264/common/frame.h \
+  ../../x264/common/dct.h ../../x264/common/quant.h \
+  ../../x264/common/cpu.h ../../x264/common/threadpool.h \
+  ../../x264/common/macroblock.h ../../x264/common/rectangle.h
+output/matroska.o: ../../x264/output/matroska.c \
+  ../../x264/output/output.h ../../x264/x264cli.h \
+  ../../x264/common/common.h ../../x264/common/osdep.h config.h \
+  ../../x264/x264.h x264_config.h ../../x264/common/opencl.h \
+  ../../x264/extras/cl.h ../../x264/extras/cl_platform.h \
+  ../../x264/common/cabac.h ../../x264/common/bitstream.h \
+  ../../x264/common/set.h ../../x264/common/predict.h \
+  ../../x264/common/pixel.h ../../x264/common/mc.h \
+  ../../x264/common/frame.h ../../x264/common/dct.h \
+  ../../x264/common/quant.h ../../x264/common/cpu.h \
+  ../../x264/common/threadpool.h ../../x264/common/macroblock.h \
+  ../../x264/common/rectangle.h ../../x264/output/matroska_ebml.h
+output/matroska_ebml.o: ../../x264/output/matroska_ebml.c \
+  ../../x264/output/output.h ../../x264/x264cli.h \
+  ../../x264/common/common.h ../../x264/common/osdep.h config.h \
+  ../../x264/x264.h x264_config.h ../../x264/common/opencl.h \
+  ../../x264/extras/cl.h ../../x264/extras/cl_platform.h \
+  ../../x264/common/cabac.h ../../x264/common/bitstream.h \
+  ../../x264/common/set.h ../../x264/common/predict.h \
+  ../../x264/common/pixel.h ../../x264/common/mc.h \
+  ../../x264/common/frame.h ../../x264/common/dct.h \
+  ../../x264/common/quant.h ../../x264/common/cpu.h \
+  ../../x264/common/threadpool.h ../../x264/common/macroblock.h \
+  ../../x264/common/rectangle.h ../../x264/output/matroska_ebml.h
+output/flv.o: ../../x264/output/flv.c ../../x264/output/output.h \
+  ../../x264/x264cli.h ../../x264/common/common.h \
+  ../../x264/common/osdep.h config.h ../../x264/x264.h x264_config.h \
+  ../../x264/common/opencl.h ../../x264/extras/cl.h \
+  ../../x264/extras/cl_platform.h ../../x264/common/cabac.h \
+  ../../x264/common/bitstream.h ../../x264/common/set.h \
+  ../../x264/common/predict.h ../../x264/common/pixel.h \
+  ../../x264/common/mc.h ../../x264/common/frame.h \
+  ../../x264/common/dct.h ../../x264/common/quant.h \
+  ../../x264/common/cpu.h ../../x264/common/threadpool.h \
+  ../../x264/common/macroblock.h ../../x264/common/rectangle.h \
+  ../../x264/output/flv_bytestream.h
+output/flv_bytestream.o: ../../x264/output/flv_bytestream.c \
+  ../../x264/output/output.h ../../x264/x264cli.h \
+  ../../x264/common/common.h ../../x264/common/osdep.h config.h \
+  ../../x264/x264.h x264_config.h ../../x264/common/opencl.h \
+  ../../x264/extras/cl.h ../../x264/extras/cl_platform.h \
+  ../../x264/common/cabac.h ../../x264/common/bitstream.h \
+  ../../x264/common/set.h ../../x264/common/predict.h \
+  ../../x264/common/pixel.h ../../x264/common/mc.h \
+  ../../x264/common/frame.h ../../x264/common/dct.h \
+  ../../x264/common/quant.h ../../x264/common/cpu.h \
+  ../../x264/common/threadpool.h ../../x264/common/macroblock.h \
+  ../../x264/common/rectangle.h ../../x264/output/flv_bytestream.h
+filters/filters.o: ../../x264/filters/filters.c \
+  ../../x264/filters/filters.h ../../x264/x264cli.h \
+  ../../x264/common/common.h ../../x264/common/osdep.h config.h \
+  ../../x264/x264.h x264_config.h ../../x264/common/opencl.h \
+  ../../x264/extras/cl.h ../../x264/extras/cl_platform.h \
+  ../../x264/common/cabac.h ../../x264/common/bitstream.h \
+  ../../x264/common/set.h ../../x264/common/predict.h \
+  ../../x264/common/pixel.h ../../x264/common/mc.h \
+  ../../x264/common/frame.h ../../x264/common/dct.h \
+  ../../x264/common/quant.h ../../x264/common/cpu.h \
+  ../../x264/common/threadpool.h ../../x264/common/macroblock.h \
+  ../../x264/common/rectangle.h ../../x264/filters/video/video.h \
+  ../../x264/input/input.h
+filters/video/video.o: ../../x264/filters/video/video.c \
+  ../../x264/filters/video/video.h ../../x264/input/input.h \
+  ../../x264/x264cli.h ../../x264/common/common.h \
+  ../../x264/common/osdep.h config.h ../../x264/x264.h x264_config.h \
+  ../../x264/common/opencl.h ../../x264/extras/cl.h \
+  ../../x264/extras/cl_platform.h ../../x264/common/cabac.h \
+  ../../x264/common/bitstream.h ../../x264/common/set.h \
+  ../../x264/common/predict.h ../../x264/common/pixel.h \
+  ../../x264/common/mc.h ../../x264/common/frame.h \
+  ../../x264/common/dct.h ../../x264/common/quant.h \
+  ../../x264/common/cpu.h ../../x264/common/threadpool.h \
+  ../../x264/common/macroblock.h ../../x264/common/rectangle.h \
+  ../../x264/filters/filters.h
+filters/video/source.o: ../../x264/filters/video/source.c \
+  ../../x264/filters/video/video.h ../../x264/input/input.h \
+  ../../x264/x264cli.h ../../x264/common/common.h \
+  ../../x264/common/osdep.h config.h ../../x264/x264.h x264_config.h \
+  ../../x264/common/opencl.h ../../x264/extras/cl.h \
+  ../../x264/extras/cl_platform.h ../../x264/common/cabac.h \
+  ../../x264/common/bitstream.h ../../x264/common/set.h \
+  ../../x264/common/predict.h ../../x264/common/pixel.h \
+  ../../x264/common/mc.h ../../x264/common/frame.h \
+  ../../x264/common/dct.h ../../x264/common/quant.h \
+  ../../x264/common/cpu.h ../../x264/common/threadpool.h \
+  ../../x264/common/macroblock.h ../../x264/common/rectangle.h \
+  ../../x264/filters/filters.h
+filters/video/internal.o: ../../x264/filters/video/internal.c \
+  ../../x264/filters/video/internal.h ../../x264/filters/video/video.h \
+  ../../x264/input/input.h ../../x264/x264cli.h \
+  ../../x264/common/common.h ../../x264/common/osdep.h config.h \
+  ../../x264/x264.h x264_config.h ../../x264/common/opencl.h \
+  ../../x264/extras/cl.h ../../x264/extras/cl_platform.h \
+  ../../x264/common/cabac.h ../../x264/common/bitstream.h \
+  ../../x264/common/set.h ../../x264/common/predict.h \
+  ../../x264/common/pixel.h ../../x264/common/mc.h \
+  ../../x264/common/frame.h ../../x264/common/dct.h \
+  ../../x264/common/quant.h ../../x264/common/cpu.h \
+  ../../x264/common/threadpool.h ../../x264/common/macroblock.h \
+  ../../x264/common/rectangle.h ../../x264/filters/filters.h
+filters/video/resize.o: ../../x264/filters/video/resize.c \
+  ../../x264/filters/video/video.h ../../x264/input/input.h \
+  ../../x264/x264cli.h ../../x264/common/common.h \
+  ../../x264/common/osdep.h config.h ../../x264/x264.h x264_config.h \
+  ../../x264/common/opencl.h ../../x264/extras/cl.h \
+  ../../x264/extras/cl_platform.h ../../x264/common/cabac.h \
+  ../../x264/common/bitstream.h ../../x264/common/set.h \
+  ../../x264/common/predict.h ../../x264/common/pixel.h \
+  ../../x264/common/mc.h ../../x264/common/frame.h \
+  ../../x264/common/dct.h ../../x264/common/quant.h \
+  ../../x264/common/cpu.h ../../x264/common/threadpool.h \
+  ../../x264/common/macroblock.h ../../x264/common/rectangle.h \
+  ../../x264/filters/filters.h
+filters/video/cache.o: ../../x264/filters/video/cache.c \
+  ../../x264/filters/video/video.h ../../x264/input/input.h \
+  ../../x264/x264cli.h ../../x264/common/common.h \
+  ../../x264/common/osdep.h config.h ../../x264/x264.h x264_config.h \
+  ../../x264/common/opencl.h ../../x264/extras/cl.h \
+  ../../x264/extras/cl_platform.h ../../x264/common/cabac.h \
+  ../../x264/common/bitstream.h ../../x264/common/set.h \
+  ../../x264/common/predict.h ../../x264/common/pixel.h \
+  ../../x264/common/mc.h ../../x264/common/frame.h \
+  ../../x264/common/dct.h ../../x264/common/quant.h \
+  ../../x264/common/cpu.h ../../x264/common/threadpool.h \
+  ../../x264/common/macroblock.h ../../x264/common/rectangle.h \
+  ../../x264/filters/filters.h ../../x264/filters/video/internal.h
+filters/video/fix_vfr_pts.o: ../../x264/filters/video/fix_vfr_pts.c \
+  ../../x264/filters/video/video.h ../../x264/input/input.h \
+  ../../x264/x264cli.h ../../x264/common/common.h \
+  ../../x264/common/osdep.h config.h ../../x264/x264.h x264_config.h \
+  ../../x264/common/opencl.h ../../x264/extras/cl.h \
+  ../../x264/extras/cl_platform.h ../../x264/common/cabac.h \
+  ../../x264/common/bitstream.h ../../x264/common/set.h \
+  ../../x264/common/predict.h ../../x264/common/pixel.h \
+  ../../x264/common/mc.h ../../x264/common/frame.h \
+  ../../x264/common/dct.h ../../x264/common/quant.h \
+  ../../x264/common/cpu.h ../../x264/common/threadpool.h \
+  ../../x264/common/macroblock.h ../../x264/common/rectangle.h \
+  ../../x264/filters/filters.h ../../x264/filters/video/internal.h
+filters/video/select_every.o: ../../x264/filters/video/select_every.c \
+  ../../x264/filters/video/video.h ../../x264/input/input.h \
+  ../../x264/x264cli.h ../../x264/common/common.h \
+  ../../x264/common/osdep.h config.h ../../x264/x264.h x264_config.h \
+  ../../x264/common/opencl.h ../../x264/extras/cl.h \
+  ../../x264/extras/cl_platform.h ../../x264/common/cabac.h \
+  ../../x264/common/bitstream.h ../../x264/common/set.h \
+  ../../x264/common/predict.h ../../x264/common/pixel.h \
+  ../../x264/common/mc.h ../../x264/common/frame.h \
+  ../../x264/common/dct.h ../../x264/common/quant.h \
+  ../../x264/common/cpu.h ../../x264/common/threadpool.h \
+  ../../x264/common/macroblock.h ../../x264/common/rectangle.h \
+  ../../x264/filters/filters.h
+filters/video/crop.o: ../../x264/filters/video/crop.c \
+  ../../x264/filters/video/video.h ../../x264/input/input.h \
+  ../../x264/x264cli.h ../../x264/common/common.h \
+  ../../x264/common/osdep.h config.h ../../x264/x264.h x264_config.h \
+  ../../x264/common/opencl.h ../../x264/extras/cl.h \
+  ../../x264/extras/cl_platform.h ../../x264/common/cabac.h \
+  ../../x264/common/bitstream.h ../../x264/common/set.h \
+  ../../x264/common/predict.h ../../x264/common/pixel.h \
+  ../../x264/common/mc.h ../../x264/common/frame.h \
+  ../../x264/common/dct.h ../../x264/common/quant.h \
+  ../../x264/common/cpu.h ../../x264/common/threadpool.h \
+  ../../x264/common/macroblock.h ../../x264/common/rectangle.h \
+  ../../x264/filters/filters.h
+filters/video/depth.o: ../../x264/filters/video/depth.c \
+  ../../x264/filters/video/video.h ../../x264/input/input.h \
+  ../../x264/x264cli.h ../../x264/common/common.h \
+  ../../x264/common/osdep.h config.h ../../x264/x264.h x264_config.h \
+  ../../x264/common/opencl.h ../../x264/extras/cl.h \
+  ../../x264/extras/cl_platform.h ../../x264/common/cabac.h \
+  ../../x264/common/bitstream.h ../../x264/common/set.h \
+  ../../x264/common/predict.h ../../x264/common/pixel.h \
+  ../../x264/common/mc.h ../../x264/common/frame.h \
+  ../../x264/common/dct.h ../../x264/common/quant.h \
+  ../../x264/common/cpu.h ../../x264/common/threadpool.h \
+  ../../x264/common/macroblock.h ../../x264/common/rectangle.h \
+  ../../x264/filters/filters.h
+input/thread.o: ../../x264/input/thread.c ../../x264/input/input.h \
+  ../../x264/x264cli.h ../../x264/common/common.h \
+  ../../x264/common/osdep.h config.h ../../x264/x264.h x264_config.h \
+  ../../x264/common/opencl.h ../../x264/extras/cl.h \
+  ../../x264/extras/cl_platform.h ../../x264/common/cabac.h \
+  ../../x264/common/bitstream.h ../../x264/common/set.h \
+  ../../x264/common/predict.h ../../x264/common/pixel.h \
+  ../../x264/common/mc.h ../../x264/common/frame.h \
+  ../../x264/common/dct.h ../../x264/common/quant.h \
+  ../../x264/common/cpu.h ../../x264/common/threadpool.h \
+  ../../x264/common/macroblock.h ../../x264/common/rectangle.h
